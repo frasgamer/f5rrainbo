@@ -1,20 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-
-
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-
-
-
-
-
-
-
-
-
 
 client.on("ready", () => { // كود رينبو
   function lol() {
@@ -22,6 +11,7 @@ client.on("ready", () => { // كود رينبو
   };
   setInterval(lol, 1000);
 });
+
 
 
 
